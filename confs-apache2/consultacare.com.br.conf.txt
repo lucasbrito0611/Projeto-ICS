@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+  ServerName consultacare.com.br
+
+  ServerAdmin brito.s@escolar.ifrn.edu.br
+  DocumentRoot /var/www/html/consultacare.com.br
+
+  ErrorLog ${APACHE_LOG_DIR}/consultacare.com.br/error.log
+  CustomLog ${APACHE_LOG_DIR}/consultacare.com.br/access.log combined
+  
+</VirtualHost>
