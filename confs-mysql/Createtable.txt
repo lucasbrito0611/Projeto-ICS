@@ -10,5 +10,5 @@ CREATE TABLE Consulta (
     data_hora DATETIME NOT NULL,
     especialidade VARCHAR(100) NOT NULL,
     paciente_id INT UNSIGNED NOT NULL,
-    FOREIGN KEY (paciente_id) REFERENCES Paciente(id) 
+    FOREIGN KEY (paciente_id) REFERENCES Paciente(id) ON DELETE CASCADE
 );
